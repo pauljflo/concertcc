@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">False</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">/Users/paulflowers/asp/musicstore/MusicStore/samples/MusicStore/obj/project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/paulflowers/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/paulflowers/.nuget/packages/;/usr/local/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.3.1</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)microsoft.aspnetcore.aspnetcoremodule/2.1.0-preview2-30131/contentFiles/any/any/x64/aspnetcore.dll" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.aspnetcoremodule/2.1.0-preview2-30131/contentFiles/any/any/x64/aspnetcore.dll')">
+      <NuGetPackageId>Microsoft.AspNetCore.AspNetCoreModule</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>x64/aspnetcore.dll</TargetPath>
+      <DestinationSubDirectory>x64/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>x64/aspnetcore.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.aspnetcore.aspnetcoremodule/2.1.0-preview2-30131/contentFiles/any/any/x64/aspnetcorerh.dll" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.aspnetcoremodule/2.1.0-preview2-30131/contentFiles/any/any/x64/aspnetcorerh.dll')">
+      <NuGetPackageId>Microsoft.AspNetCore.AspNetCoreModule</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>x64/aspnetcorerh.dll</TargetPath>
+      <DestinationSubDirectory>x64/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>x64/aspnetcorerh.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.aspnetcore.aspnetcoremodule/2.1.0-preview2-30131/contentFiles/any/any/x86/aspnetcore.dll" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.aspnetcoremodule/2.1.0-preview2-30131/contentFiles/any/any/x86/aspnetcore.dll')">
+      <NuGetPackageId>Microsoft.AspNetCore.AspNetCoreModule</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>x86/aspnetcore.dll</TargetPath>
+      <DestinationSubDirectory>x86/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>x86/aspnetcore.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)microsoft.aspnetcore.aspnetcoremodule/2.1.0-preview2-30131/contentFiles/any/any/x86/aspnetcorerh.dll" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.aspnetcoremodule/2.1.0-preview2-30131/contentFiles/any/any/x86/aspnetcorerh.dll')">
+      <NuGetPackageId>Microsoft.AspNetCore.AspNetCoreModule</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>x86/aspnetcorerh.dll</TargetPath>
+      <DestinationSubDirectory>x86/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>x86/aspnetcorerh.dll</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.app/2.0.0/build/netcoreapp2.0/Microsoft.NETCore.App.props" Condition="Exists('/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.app/2.0.0/build/netcoreapp2.0/Microsoft.NETCore.App.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/2.1.0-preview2-30131/build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/2.1.0-preview2-30131/build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.razor.design/2.1.0-preview2-30131/build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.razor.design/2.1.0-preview2-30131/build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.mvc.razor.extensions/2.1.0-preview2-30131/build/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.mvc.razor.extensions/2.1.0-preview2-30131/build/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.aspnetcoremodule/2.1.0-preview2-30131/build/Microsoft.AspNetCore.AspNetCoreModule.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.aspnetcoremodule/2.1.0-preview2-30131/build/Microsoft.AspNetCore.AspNetCoreModule.props')" />
+  </ImportGroup>
+</Project>

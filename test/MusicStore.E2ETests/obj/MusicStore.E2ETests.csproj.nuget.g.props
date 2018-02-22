@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">/Users/paulflowers/asp/musicstore/MusicStore/test/MusicStore.E2ETests/obj/project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/paulflowers/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/paulflowers/.nuget/packages/;/usr/local/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.3.1</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)microsoft.aspnetcore.server.integrationtesting/0.5.0-preview2-30131/contentFiles/any/netstandard2.0/EventSourceTestCollection.cs" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.server.integrationtesting/0.5.0-preview2-30131/contentFiles/any/netstandard2.0/EventSourceTestCollection.cs')">
+      <NuGetPackageId>Microsoft.AspNetCore.Server.IntegrationTesting</NuGetPackageId>
+      <NuGetPackageVersion>0.5.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>EventSourceTestCollection.cs</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Language)' == 'C#' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Compile Include="$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/AnsiConsole.cs" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/AnsiConsole.cs')">
+      <NuGetPackageId>Microsoft.Extensions.CommandLineUtils.Sources</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>CommandLine/AnsiConsole.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/CommandArgument.cs" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/CommandArgument.cs')">
+      <NuGetPackageId>Microsoft.Extensions.CommandLineUtils.Sources</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>CommandLine/CommandArgument.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/CommandLineApplication.cs" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/CommandLineApplication.cs')">
+      <NuGetPackageId>Microsoft.Extensions.CommandLineUtils.Sources</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>CommandLine/CommandLineApplication.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/CommandOption.cs" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/CommandOption.cs')">
+      <NuGetPackageId>Microsoft.Extensions.CommandLineUtils.Sources</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>CommandLine/CommandOption.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/CommandOptionType.cs" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/CommandOptionType.cs')">
+      <NuGetPackageId>Microsoft.Extensions.CommandLineUtils.Sources</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>CommandLine/CommandOptionType.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/CommandParsingException.cs" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/CommandLine/CommandParsingException.cs')">
+      <NuGetPackageId>Microsoft.Extensions.CommandLineUtils.Sources</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>CommandLine/CommandParsingException.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/Utilities/ArgumentEscaper.cs" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/Utilities/ArgumentEscaper.cs')">
+      <NuGetPackageId>Microsoft.Extensions.CommandLineUtils.Sources</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>Utilities/ArgumentEscaper.cs</Link>
+    </Compile>
+    <Compile Include="$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/Utilities/DotNetMuxer.cs" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.commandlineutils.sources/2.1.0-preview2-30131/contentFiles/cs/netstandard1.0/Utilities/DotNetMuxer.cs')">
+      <NuGetPackageId>Microsoft.Extensions.CommandLineUtils.Sources</NuGetPackageId>
+      <NuGetPackageVersion>2.1.0-preview2-30131</NuGetPackageVersion>
+      <NuGetItemType>Compile</NuGetItemType>
+      <Private>False</Private>
+      <Link>Utilities/DotNetMuxer.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk/15.3.0/build/netcoreapp1.0/Microsoft.Net.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk/15.3.0/build/netcoreapp1.0/Microsoft.Net.Test.Sdk.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio/2.4.0-beta.1.build3945/build/netcoreapp1.0/xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio/2.4.0-beta.1.build3945/build/netcoreapp1.0/xunit.runner.visualstudio.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.core/2.3.1/build/xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.3.1/build/xunit.core.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netcore.app/2.1.0-preview2-26130-04/build/netcoreapp2.1/Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app/2.1.0-preview2-26130-04/build/netcoreapp2.1/Microsoft.NETCore.App.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/2.1.0-preview2-30131/build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/2.1.0-preview2-30131/build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props')" />
+  </ImportGroup>
+</Project>

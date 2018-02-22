@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{3CFBED5D-2ED8-49DB-96FB-BDAA748DC5A0}|Default">
+  <MonoDevelop.Ide.ItemProperties.samples.MusicStore PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="build/repo.targets">
+    <Files>
+      <File FileName="NuGet.config" Line="1" Column="1" />
+      <File FileName="Directory.Build.targets" Line="1" Column="1" />
+      <File FileName="Directory.Build.props" Line="1" Column="1" />
+      <File FileName="samples/MusicStore/StartupOpenIdConnect.cs" Line="1" Column="1" />
+      <File FileName="build/repo.targets" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
